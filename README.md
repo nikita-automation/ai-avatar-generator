@@ -1,5 +1,7 @@
 # AI Avatar Generator
 
+> **Kurz auf Deutsch:** Baustein einer Content-Pipeline: Aus einer Airtable-Zeile mit Skript, Stimme und Avatar-ID wird über die HeyGen-API ein Avatar-Video gerendert, der Renderstatus überwacht und das Ergebnis automatisch zurückgeschrieben.
+
 AI Avatar Generator is a portfolio project demonstrating an automation workflow for generating AI avatar videos with the HeyGen API. The workflow is triggered from Airtable after the main content production process has already been completed: the script is written, the voice has been generated, and the user has selected an Avatar ID for the final video.
 
 This project is one module in a broader AI content automation pipeline. It focuses on the final avatar video generation step and shows how Airtable, Make.com, HeyGen, and webhooks can be connected into a controlled production workflow.
@@ -86,3 +88,7 @@ This was an engineering decision based on practical workflow evaluation. The pro
 ## Screenshot
 
 ![Workflow](assets/workflow.png)
+
+---
+
+**Autor:** Nikita Rozumnyi · KI-Automatisierung für Unternehmen · [nikita-automation.de](https://nikita-automation.de) · [LinkedIn](https://www.linkedin.com/in/nikita-rozumniy) · [alle Projekte](https://github.com/nikita-automation)
